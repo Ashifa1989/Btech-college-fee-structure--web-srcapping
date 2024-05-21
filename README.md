@@ -16,7 +16,7 @@ Installation
 Clone the repository:
 
 
-git clone https://github.com/yourusername/btech-fee-structure-scraper.git  # Replace `yourusername` with your GitHub username
+git clone https://github.com/Ashifa1989/btech-fee-structure-scraper.git  
 cd btech-fee-structure-scraper
 Install the required Python packages:
 
