@@ -53,14 +53,22 @@ no_data_list.csv containing the colleges for which data could not be scraped.
 
 **Script Details**:
 
-**1) load_webpage_and_save_data(driver)**
+**load_webpage_and_save_data(driver)**
+
 Purpose: Loads the main B.Tech colleges page on Collegedunia and scrolls through the page to gather links and names of all listed colleges. Saves the data into a CSV file.
+
 **find_the_page_to_process(driver, college_link)**
+
 Purpose: Given a college's main page link, navigates to the B.Tech course page and gathers all relevant links for fee structure extraction.
+
 **btech_fee_structure(driver, name, links)**
+
 Purpose: Extracts fee structure details from each provided link and compiles the data into a DataFrame.
+
 **main()**
+
 Purpose: The main function to read input data, initiate the scraping process, and save the output to CSV files.
 
 **Contributing**
+
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
